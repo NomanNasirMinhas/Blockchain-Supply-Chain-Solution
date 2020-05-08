@@ -1,0 +1,5 @@
+ganache-cli accounts used here...
+Contract Owner: accounts[0]  0x14e66059D7E10f70c7CF8be4226Bea20A5fa01e5
+Manufacturer: accounts[1]  0x34634d73039FaBE96A9FB642C08eEE56157422CD
+Retailer: accounts[2]  0xa8c2d790E4BcaE811b6f0a73Ea4797aD2B181835
+Customer: accounts[3]  0x3350e44599f84188eE04150a1FB0De943AFE6ce6

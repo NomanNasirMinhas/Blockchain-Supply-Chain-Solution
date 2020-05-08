@@ -1,0 +1,123 @@
+Warning: Both truffle-config.js and truffle.js were found. Using truffle-config.js.
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Migrations.sol
+> Compiling .\contracts\accessControl\CustomerRole.sol
+> Compiling .\contracts\accessControl\ManufacturerRole.sol
+> Compiling .\contracts\accessControl\RetailerRole.sol
+> Compiling .\contracts\accessControl\Roles.sol
+> Compiling .\contracts\base\SupplyChain.sol
+> Compiling .\contracts\core\Ownable.sol
+> Artifacts written to C:\Users\Fox-2\Downloads\Compressed\Part B\project-6\build\contracts
+> Compiled successfully using:
+   - solc: 0.4.24+commit.e67f0147.Emscripten.clang
+
+Warning: Both truffle-config.js and truffle.js were found. Using truffle-config.js.
+Warning: Both truffle-config.js and truffle.js were found. Using truffle-config.js.
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      1588960223096
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x1d22c62c56b4152ef884d3de86f727bee013f7f3949e0f519069b5f4d5496124
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x926142cFd872c778a2DCC7fdAb68962D0bde5265
+   > block number:        1
+   > block timestamp:     1588960337
+   > account:             0x14e66059D7E10f70c7CF8be4226Bea20A5fa01e5
+   > balance:             99.99522812
+   > gas used:            238594 (0x3a402)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00477188 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00477188 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'ManufacturerRole'
+   ----------------------------
+   > transaction hash:    0x5cd3da9c6f41c83b371d39117c5b2ec424c7304caee9e909834e457703d50007
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x4E863C0A8a597b4495116B27F6640622E36D8468
+   > block number:        3
+   > block timestamp:     1588960338
+   > account:             0x14e66059D7E10f70c7CF8be4226Bea20A5fa01e5
+   > balance:             99.98819054
+   > gas used:            309531 (0x4b91b)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00619062 ETH
+
+
+   Deploying 'RetailerRole'
+   ------------------------
+   > transaction hash:    0x5659c71878977c12c8aaf05d3e99367db486bcf49d1460db6b9dee8531e6b3b4
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xa2e36235230D5Bd63Bd289d0896e8B89A8A03679
+   > block number:        4
+   > block timestamp:     1588960338
+   > account:             0x14e66059D7E10f70c7CF8be4226Bea20A5fa01e5
+   > balance:             99.98199992
+   > gas used:            309531 (0x4b91b)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00619062 ETH
+
+
+   Deploying 'CustomerRole'
+   ------------------------
+   > transaction hash:    0x6377911c1ab42bfdffe0edcd633a2458d2d526161df1427a22e74d84fdaf24a4
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x570D11B827C669404c4c04416134e1bbFe882511
+   > block number:        5
+   > block timestamp:     1588960339
+   > account:             0x14e66059D7E10f70c7CF8be4226Bea20A5fa01e5
+   > balance:             99.97580954
+   > gas used:            309519 (0x4b90f)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00619038 ETH
+
+
+   Deploying 'SupplyChain'
+   -----------------------
+   > transaction hash:    0x183db9c14257afc78f58a66a0c25863513dd30393b041c37bb43649516a15743
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xFB0d635B05fE19173B9C202A1c25a7F4ef88ed3D
+   > block number:        6
+   > block timestamp:     1588960339
+   > account:             0x14e66059D7E10f70c7CF8be4226Bea20A5fa01e5
+   > balance:             99.9245072
+   > gas used:            2565117 (0x2723fd)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.05130234 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.06987396 ETH
+
+
+Summary
+=======
+> Total deployments:   5
+> Final cost:          0.07464584 ETH

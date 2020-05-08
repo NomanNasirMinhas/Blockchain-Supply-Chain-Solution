@@ -1,0 +1,223 @@
+Warning: Both truffle-config.js and truffle.js were found. Using truffle-config.js.
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Migrations.sol
+> Compiling .\contracts\accessControl\CustomerRole.sol    
+> Compiling .\contracts\accessControl\ManufacturerRole.sol
+> Compiling .\contracts\accessControl\RetailerRole.sol    
+> Compiling .\contracts\accessControl\Roles.sol
+> Compiling .\contracts\base\SupplyChain.sol
+> Compiling .\contracts\core\Ownable.sol
+> Artifacts written to F:\Courses Complete\Udacity - Blockchain\Projects\Blockchain-Supply-Chain-Solution\build\contracts
+> Compiled successfully using:
+   - solc: 0.4.24+commit.e67f0147.Emscripten.clang
+
+Warning: Both truffle-config.js and truffle.js were found. Using truffle-config.js.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 10000000 (0x989680)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > block number:        6453932
+   > block timestamp:     1588964424
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             2.87553865
+   > gas used:            223594 (0x3696a)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00223594 ETH
+
+   -------------------------------------
+   > Total cost:          0.00223594 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'ManufacturerRole'
+   ----------------------------
+   > block number:        6453934
+   > block timestamp:     1588964446
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             2.87231986
+   > gas used:            294531 (0x47e83)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00294531 ETH
+
+
+   Replacing 'RetailerRole'
+   ------------------------
+   > block number:        6453935
+   > block timestamp:     1588964466
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             2.86937455
+   > gas used:            294531 (0x47e83)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00294531 ETH
+
+
+   Replacing 'CustomerRole'
+   ------------------------
+   > block number:        6453936
+   > block timestamp:     1588964493
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             2.86642936
+   > gas used:            294519 (0x47e77)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00294519 ETH
+
+
+   Replacing 'SupplyChain'
+   -----------------------
+   > block number:        6453937
+   > block timestamp:     1588964566
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             2.84167819
+   > gas used:            2475117 (0x25c46d)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02475117 ETH
+
+   -------------------------------------
+   > Total cost:          0.03358698 ETH
+
+
+Summary
+=======
+> Total deployments:   5
+> Final cost:          0.03582292 ETH
+
+
+Warning: Both truffle-config.js and truffle.js were found. Using truffle-config.js.
+Warning: Both truffle-config.js and truffle.js were found. Using truffle-config.js.
+
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 10000000 (0x989680)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x2ab161a4423cb4d4432851527bb2071150d383811c30aa9d9c13158e7faedc27
+   > Blocks: 2            Seconds: 30
+   > contract address:    0x63486492b1f6255E598F2D9b0ad4C46395054D5c
+   > block number:        6453946
+   > block timestamp:     1588964628
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             5.87538865
+   > gas used:            238594 (0x3a402)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00238594 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00238594 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'ManufacturerRole'
+   ----------------------------
+   > transaction hash:    0x5f7723d11f8bbbced880de6b5eae03223b788e90ff23aa0d4baf56c44268a351
+   > Blocks: 0            Seconds: 10
+   > contract address:    0x55EBC220dd6ebA0eE686768eD8Cb5a88eDF08a9A
+   > block number:        6453949
+   > block timestamp:     1588964673
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             5.87186986
+   > gas used:            309531 (0x4b91b)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00309531 ETH
+
+
+   Replacing 'RetailerRole'
+   ------------------------
+   > transaction hash:    0xe322ffdf58a469edc630bb2cb47f6022e524d5515ed0750739881021542742e6
+   > Blocks: 0            Seconds: 6
+   > contract address:    0xC991bb39fAAE319f8777d21FD6BfF1f3Ad14713B
+   > block number:        6453950
+   > block timestamp:     1588964688
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             5.86877455
+   > gas used:            309531 (0x4b91b)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00309531 ETH
+
+
+   Replacing 'CustomerRole'
+   ------------------------
+   > transaction hash:    0x0c8db34bca7c9f63eab37cee993f5140df52428c1e2a30acfe4a39b1b8b947e4
+   > Blocks: 0            Seconds: 14
+   > contract address:    0x03a0C97332e5c589e587A6c2FdE1d0Da225e5940
+   > block number:        6453952
+   > block timestamp:     1588964718
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             5.86567936
+
+
+   Replacing 'CustomerRole'
+   ------------------------
+   > transaction hash:    0x0c8db34bca7c9f63eab37cee993f5140df52428c1e2a30acfe4a39b1b8b947e4
+   > Blocks: 0            Seconds: 14
+   > contract address:    0x03a0C97332e5c589e587A6c2FdE1d0Da225e5940
+   > block number:        6453952
+   > block timestamp:     1588964718
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             5.86567936
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00309519 ETH
+
+
+   Replacing 'SupplyChain'
+   -----------------------
+   > transaction hash:    0x51d852a82e79fadfe22a246f87507ebcecb8aa904f26b2bb80bbc92dba4aa3e4
+   ⠹ Blocks: 1            Seconds: 10
+   > Blocks: 2            Seconds: 17
+   > contract address:    0xBb74eD4bb5167F8567bb79B0Df5Ea39489238c56
+   > block number:        6453954
+   > block timestamp:     1588964748
+   > account:             0x3B3C254e206f45b7c8b2Fff2DCf390A007E0c5E1
+   > balance:             5.84002819
+   > gas used:            2565117 (0x2723fd)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02565117 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.03493698 ETH
+
+
+Summary
+=======
+> Total deployments:   5
+> Final cost:          0.03732292 ETH
